@@ -1,0 +1,44 @@
+[
+    {
+        "id":"chapati",
+        "title" : "Chapati",
+        "details" : "fresh wheat chapati available",
+        "image" : "../photos/chapati.jpg",
+        "price" : "10"
+    },
+    {
+        "id":"curd",
+        "title" : "Curd",
+        "details" : "curd is special role in our food list ",
+        "image" : "../photos/curd.jpg",
+        "price" : "30"
+    },
+    {
+        "id":"pickle",
+        "title" : "Pickle",
+        "details" : "made by special granny recipe",
+        "image" : "../photos/pickle.jpg",
+        "price" : "15"
+    },
+    {
+        "id":"sweets",
+        "title" :"sweets",
+        "details": "large variety of sweets",
+        "image" : "../photos/sweets.jpg",
+        "price" : "20"
+    },
+    {
+        "id":"dal",
+        "title":"dal",
+        "details": "tasty and spicy dals are avilable",
+        "image" : "../photos/dal.jpg",
+        "price" : "50"
+    },
+    {
+        "id":"paneer",
+        "title":"Mattar Paneer",
+        "details":"fresh and deliciour panner",
+        "image" : "../photos/matarPanner.jpg",
+        "price" : "80"
+    }
+]
