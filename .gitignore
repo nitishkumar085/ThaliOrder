@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# page documment
+
+/thali_order_app_pages_list.txt

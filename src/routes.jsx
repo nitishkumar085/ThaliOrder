@@ -1,6 +1,6 @@
 import {createBrowserRouter} from 'react-router-dom'
 import App from './App'
-import Start from './components/Start'
+import Start from './pages/home/Start'
 import ContentList from './components/ContentList'
 import Checkout from './components/Checkout'
 
