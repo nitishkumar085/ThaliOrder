@@ -3,15 +3,36 @@ import { Link } from 'react-router-dom'
 
 import style from './home.module.css'
 
-
 function Start() {
   return (
-    <div style={{postiton:"relative",marginTop:"57px"}}>
-        <img src="./photos/mainPage.jpg" alt="thali" style={{width:"100%",height:"100vh"}}/>
-        <div style={{textAlign:"center",marginRight:"150px"}}>
-        <Link to='/menu' ><button style={{position:"absolute",top:"150px"}}>Make your Thali</button></Link>
+    <section className={style.hero}>
+      <img
+        src="./photos/mainPage.png"
+        alt="Traditional Indian thali"
+        className={style.heroImage}
+      />
+      <div className={style.veil} />
+
+      <div className={style.stage}>
+        <header className={style.copy}>
+          <p className={style.kicker}>Food Life · Homestyle platters</p>
+          <h1 className={style.title}>Craft your perfect thali</h1>
+          <p className={style.lead}>
+            Dal, paneer, chapati, pickle, curd and sweets — assembled around
+            one plate, just the way you like it.
+          </p>
+        </header>
+
+        <div className={style.ctaAnchor}>
+          <span className={style.halo} aria-hidden="true" />
+          <Link to="/menu" className={style.ctaLink}>
+            <button type="button" className={style.cta}>
+              Make your Thali
+            </button>
+          </Link>
         </div>
-    </div>
+      </div>
+    </section>
   )
 }
 
