@@ -7,7 +7,7 @@ function Start() {
   return (
     <section className={style.hero}>
       <img
-        src="./photos/mainPage.png"
+        src="/photos/mainPage.png"
         alt="Traditional Indian thali"
         className={style.heroImage}
       />
